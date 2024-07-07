@@ -27,6 +27,4 @@ private lateinit var binding: FragmentWelcomeBinding
       }
       return binding.root
     }
-
-
 }
