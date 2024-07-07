@@ -2,12 +2,12 @@
 
 ## Screenshots
 <p>
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/baf7be3b-de7b-4505-ac6a-05d91924df7c.jpg" height="500" >
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/70fd2194-043c-466f-bf7e-1eb0bfa06ccb.jpg" height="500" >
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/b04a7d72-5c71-4d82-b388-c1b9d4a37d86.jpg" height="500" > 
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/403951a7-884a-490a-a511-28d6fdc50add.jpg" height="500"" >  
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/1a2e51a9-7517-412e-9291-a98d8076433b.jpg" height="500" >
-<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/fe299060-1269-41a8-9d6e-9ea4ec727213.jpg" height="500" >
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/3a9b0537-9198-4578-8541-7031837cff73.jpg" height="500" > 
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/2967ea76-2d10-46e1-8d4c-96a48a6529d9.jpg" height="500" >
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/30f061da-1dc2-469b-b3ab-b5d32734e569.jpg" height="500" > 
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/9cdbbf43-563a-470a-8bf4-5f06cb2e1cda.jpg" height="500"" >  
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/c1d4a3fa-b6fb-4717-a214-24dc3f2ecbd3.jpg" height="500" >
+<img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/22e1a15c-46ae-4e58-9c56-2481858d3abd.jpg" height="500" >
 <img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/5f3ff0cc-ac09-4ad6-bf46-d813571bbc84.jpg" height="500" >
 </p>
 
