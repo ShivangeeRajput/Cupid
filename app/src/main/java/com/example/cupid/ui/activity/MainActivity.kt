@@ -11,6 +11,8 @@ private lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
+
     }
     override fun onSupportNavigateUp(): Boolean {
         navController=findNavController(R.id.navHostFragmentContainerView)
