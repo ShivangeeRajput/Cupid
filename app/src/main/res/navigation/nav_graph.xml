@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment3">
+    <fragment
+        android:id="@+id/splashFragment3"
+        android:name="com.example.cupid.ui.fragments.onboarding.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment3_to_welcomeFragment3"
+            app:destination="@id/welcomeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment3"
+        android:name="com.example.cupid.ui.fragments.onboarding.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment3_to_signUpFragment2"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment3_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.cupid.ui.fragments.onboarding.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_addEmailFragment"
+            app:destination="@id/addEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.cupid.ui.fragments.onboarding.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/addEmailFragment"
+        android:name="com.example.cupid.ui.fragments.onboarding.AddEmailFragment"
+        android:label="fragment_add_email"
+        tools:layout="@layout/fragment_add_email" >
+        <action
+            android:id="@+id/action_addEmailFragment_to_addPasswordFragment"
+            app:destination="@id/addPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPasswordFragment"
+        android:name="com.example.cupid.ui.fragments.onboarding.AddPasswordFragment"
+        android:label="fragment_add_password"
+        tools:layout="@layout/fragment_add_password" />
+</navigation>
