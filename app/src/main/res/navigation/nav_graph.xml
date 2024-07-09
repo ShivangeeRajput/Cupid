@@ -38,7 +38,11 @@
         android:id="@+id/signInFragment"
         android:name="com.example.cupid.ui.fragments.onboarding.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment3"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addEmailFragment"
         android:name="com.example.cupid.ui.fragments.onboarding.AddEmailFragment"
@@ -52,5 +56,14 @@
         android:id="@+id/addPasswordFragment"
         android:name="com.example.cupid.ui.fragments.onboarding.AddPasswordFragment"
         android:label="fragment_add_password"
-        tools:layout="@layout/fragment_add_password" />
+        tools:layout="@layout/fragment_add_password" >
+        <action
+            android:id="@+id/action_addPasswordFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cupid.ui.fragments.navigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
