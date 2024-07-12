@@ -1,6 +1,7 @@
 # Introducing Cupid👼 : Dating application for professionals.
 
 ## Screenshots
+
 <p>
 <img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/3a9b0537-9198-4578-8541-7031837cff73.jpg" height="500" > 
 <img src="https://github.com/ShivangeeRajput/Cupid/assets/100294737/2967ea76-2d10-46e1-8d4c-96a48a6529d9.jpg" height="500" > 
