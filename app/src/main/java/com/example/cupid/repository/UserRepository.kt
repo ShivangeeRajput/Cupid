@@ -9,7 +9,7 @@ suspend fun signUpUser(email: String, password: String): Result<String> {
     return try {
         val user = hashMapOf(
             "email" to email,
-            "password" to password // For security reasons, ne
+            "password" to password
         )
         db.collection("users")
             .add(user)
