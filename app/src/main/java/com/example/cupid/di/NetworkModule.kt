@@ -1,6 +1,7 @@
 package com.example.cupid.di
 
 import com.example.cupid.api.UserAPI
+import com.example.cupid.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -18,7 +19,7 @@ class NetworkModule {
     fun providesRetrofit(): Retrofit{
        return Retrofit.Builder()
            .addConverterFactory(GsonConverterFactory.create())
-           .baseUrl("")
+           .baseUrl(BASE_URL)
            .build()
    }
     @Singleton
