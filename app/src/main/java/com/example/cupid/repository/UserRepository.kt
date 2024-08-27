@@ -4,9 +4,18 @@ import android.util.Log
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
+import javax.inject.Singleton
 
-class UserRepository @Inject constructor(private val db: FirebaseFirestore) {
-    suspend fun signUpUser(email: String, password: String): Result<String> {
+interface UserRepository {
+    suspend fun signUpUser(email: String, password: String): Result<String>
+    suspend fun saveUser(email: String, password: String)
+}
+
+
+@Singleton
+class FirebaseRepository @Inject constructor(private val db: FirebaseFirestore) : UserRepository {
+
+    override suspend fun signUpUser(email: String, password: String): Result<String> {
         return try {
             val user = hashMapOf(
                 "email" to email,
@@ -20,7 +29,8 @@ class UserRepository @Inject constructor(private val db: FirebaseFirestore) {
             Result.failure(e)
         }
     }
-    suspend fun saveUSer(email: String,password: String){
-        Log.d("TAG","User saved in database")
+
+    override suspend fun saveUser(email: String, password: String) {
+        Log.d("TAG", "User saved in database")
     }
 }
