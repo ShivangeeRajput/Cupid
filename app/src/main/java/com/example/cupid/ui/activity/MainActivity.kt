@@ -14,6 +14,7 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(){
+
       @Inject
       lateinit var userRepository: UserRepository
       private lateinit var navController: NavController

@@ -10,9 +10,7 @@ import javax.inject.Inject
 
 @HiltAndroidApp
 class CupidApplicationClass : Application() {
-
-        override fun onCreate() {
+      override fun onCreate() {
         super.onCreate()
-
-    }
+      }
 }

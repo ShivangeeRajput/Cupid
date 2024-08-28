@@ -17,10 +17,11 @@ class NetworkModule {
     @Singleton
     @Provides
     fun providesRetrofit(): Retrofit{
-       return Retrofit.Builder()
-           .addConverterFactory(GsonConverterFactory.create())
-           .baseUrl(BASE_URL)
-           .build()
+      return Retrofit.Builder()
+          .addConverterFactory(GsonConverterFactory.create())
+          .baseUrl(BASE_URL)
+          .build()
+
    }
     @Singleton
     @Provides
@@ -28,3 +29,4 @@ class NetworkModule {
         return retrofit.create(UserAPI::class.java)
     }
 }
+
