@@ -8,7 +8,7 @@ import dagger.Provides
 import javax.inject.Singleton
 
 @Module
-class UserModule {
+object UserModule {
     @Provides
     @Singleton
     fun provideUserRepository(db: FirebaseFirestore): UserRepository {
