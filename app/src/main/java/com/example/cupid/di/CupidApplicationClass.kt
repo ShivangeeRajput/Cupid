@@ -10,13 +10,12 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltAndroidApp
-class CupidApplicationClass : Application() {
+    class CupidApplicationClass : Application() {
       override fun onCreate() {
           super.onCreate()
           initLogging()
       }
     private fun initLogging() {
-
         Log.d("MyApp", "Logging initialized")
     }
 }
