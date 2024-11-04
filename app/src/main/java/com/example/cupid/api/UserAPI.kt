@@ -13,4 +13,6 @@ interface UserAPI {
     @POST("/auth/login")
     suspend fun signIn(@Body userRequest: UserRequest) : Response<UserResponse>
 
+    @POST("/auth/update")
+    suspend fun update(@Body userRequest: UserRequest) : Response<UserResponse>
 }
